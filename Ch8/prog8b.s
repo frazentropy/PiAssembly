@@ -13,7 +13,7 @@ _start:
 	
 _bits:
 	TST R6, R9				@ TST number, mask; Equivalent to AND, ORR, set Z flag
-	BEQ _print0				@ if bit b21 is set, branch to _print0
+	BEQ _print0				@ if ????, branch to _print0
 	MOV R8, R6				@ MOV preserve, number
 	MOV R0, #49				@ ASCII '1'
 	STR R0, [R1]			@ Store '1' in string
