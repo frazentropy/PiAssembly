@@ -1,4 +1,4 @@
-PROGRAMS = prog10a
+PROGRAMS = prog16a
 
 # If we've supplied a goal on the command line
 # then set is as the list of programs we
